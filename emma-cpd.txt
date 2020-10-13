@@ -1,1 +1,6 @@
-Emma is giving an example
+1.3. - 13/10/2020
+ 
+Reflection
+
+Today, I used GitHub for the first time. I learned how to create a repo and how to edit it in VS Code. I also learned how to install an extension in VS Code and made my first ever code commit.
+
