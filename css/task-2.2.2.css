@@ -16,6 +16,7 @@ h1 {
 
 h2 {
     font-size: 28px;
+    font-style: italic;
 }
 
 h3 {
@@ -32,4 +33,9 @@ h5 {
 
 h6 {
     font-size: 12px;
+}
+
+ol {
+    background-color: #486696;
+    color: ivory;
 }
