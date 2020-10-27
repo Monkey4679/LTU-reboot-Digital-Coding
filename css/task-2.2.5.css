@@ -61,3 +61,14 @@ p strong em{
     color: sienna;
     font-size: 40 px;
 }
+
+.yellow{
+    background-color: yellow;
+    color: black;
+}
+
+.whatever_i_call_it{
+    font-weight: bolder;
+    background-color: tomato;
+    color: black;
+}
