@@ -1,4 +1,7 @@
 header, main, footer {
-  border: 6px solid purple;
-  margin: 10px 20px;
+  border: 6px solid darkcyan;
+  margin: 10px auto;
+  padding: 10px;
+  width: 80%;
+  text-align: center;
 }
