@@ -1,3 +1,3 @@
 main{
-  max-width:calc(75%)
+  max-width:calc(75%-20px)
 }
