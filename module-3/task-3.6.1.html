@@ -12,11 +12,16 @@
     </header>
     <main>
         <div id="imageContainer">
-            <img id="changeMe" src="https://images.pexels.com/photos/3523/animal-drinking-elk-moose.jpg" width="700" />
+            <img id="changeMe" src="https://images.pexels.com/photos/3523/animal-drinking-elk-moose.jpg" width="700px"/>
         </div>
     </main>
     <aside>
         <a id="leedsTrinityLink" href="https://www.leedstrinity.ac.uk/">Leeds Trinity Link</a>
+        <form>
+            <input id="fiveTimesInput" name="fiveTimesInput" />
+            <button id="submitCalculator" type="submit">Calculate</button>
+            <p id="fiveTimesValue"></p>
+        </form>
     </aside>
     <footer>
         <p>&copy; 2020</p>
@@ -44,6 +49,20 @@
             event.preventDefault();
             console.log('preventDefault being used');
         });
+
+        var calculatorButton = document.getElementById('submitCalculator');
+        var fiveTimesValueOutput = document.getElementById('fiveTimesValue');
+        calculatorButton.addEventListener('click',function(event){
+            event.preventDefault();
+            var inputValue = document.getElementById('fiveTimesInput').value;
+            if(isNaN(inputValue) || !inputValue){
+                strMessage = 'Value entered is not a number';
+                fiveTimesValueOutput.innerHTML = strMessage;
+            } else {
+                var sum = inputValue * 5;
+                fiveTimesValueOutput.innerHTML = sum;
+            }
+        })
     </script>
 </body>
 </html>
