@@ -1,5 +1,5 @@
 main{
-    max-width:calc(75%);
+    max-width:500px;
     float:left;
 }
 aside{
@@ -30,4 +30,8 @@ img{
 
 .filterContainer{
     margin-bottom:50px;
+}
+
+.selectedFilter{
+    border:1px solid red;
 }
